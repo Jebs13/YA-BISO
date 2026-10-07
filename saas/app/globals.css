@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════
+   YA BISO — Palette de couleurs
+   ══════════════════════════════════════════════════════ */
+@theme {
+  --color-yb-vert: #1B5E20;
+  --color-yb-vert-clair: #2E7D32;
+  --color-yb-orange: #E65100;
+  --color-yb-or: #F9A825;
+  --color-yb-creme: #FFF8F0;
+  --color-yb-brun: #3E2723;
+  --color-yb-brun-clair: #6D4C41;
+  --color-yb-gris: #F5F0EB;
+  --color-yb-texte: #1A1A1A;
+  --color-yb-texte-doux: #5D4037;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FFF8F0;
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+/* Bande Kente (motif africain) */
+.kente-line {
+  height: 6px;
+  background: repeating-linear-gradient(
+    90deg,
+    #1B5E20 0px, #1B5E20 20px,
+    #F9A825 20px, #F9A825 40px,
+    #E65100 40px, #E65100 60px,
+    #3E2723 60px, #3E2723 80px
+  );
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #F5F0EB; }
+::-webkit-scrollbar-thumb { background: #1B5E20; border-radius: 4px; }
