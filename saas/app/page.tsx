@@ -417,7 +417,7 @@ export default function Home() {
           Kinshasa, RDC · 2026 Tous les droits sont réservés
         </p>
         <p className="text-yb-creme/25 text-xs">
-          La tontine numérique qui ouvre les portes des banques
+          La tontine numérique qui ouvre les portes des banques by Mr JK
         </p>
       </footer>
     </main>
